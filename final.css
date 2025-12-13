@@ -1,0 +1,123 @@
+/*This is the CSS page for our final template.*/
+
+/* Final template CSS - cleaned for consistent rendering */
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: lightblue;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.header {
+  height: auto;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: Georgia, sans-serif;
+  background-color: palegreen;
+  border: 5px solid black;
+}
+
+.footer p {
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  padding: 8px;
+}
+
+/* Headings */
+h1 {
+  font-style: oblique;
+  font-size: 13px;
+  color: blueviolet;
+  text-align: center;
+}
+
+h2 {
+  font-size: 23px;
+  font-style: oblique;
+  margin-left: 60px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 22px;
+  margin: 0;
+  text-align: center;
+}
+
+h4 {
+  font-style: oblique;
+  font-size: 16px;
+  font-family: Georgia, serif;
+}
+
+h5 {
+  font-style: oblique;
+  font-size: 13px;
+  font-family: Georgia;
+}
+
+h6 {
+  font-style: oblique;
+  font-size: 32px;
+  font-family: Georgia;
+  color: black;
+  margin-bottom: 5px;
+  margin-top: 9px;
+}
+
+.section-header {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+/* Paragraphs */
+p {
+  padding: 8px;
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Optional: use these if you replace p4/p5 with <p class="p4"> etc. */
+.p4,
+.p5 {
+  padding: 8px;
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Images */
+img {
+  margin-right: 5%;
+  margin-left: 5%;
+  line-height: 1.4;
+}
+
+.PPD_image {
+  float: right;
+  width: 300px;
+  height: auto;
+  margin: 0 0 20px 20px;
+  border: 5px solid black;
+  background: white;
+  padding: 5px;
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Animated text */
+.animated-word {
+  font-style: oblique;
+  font-size: 2
